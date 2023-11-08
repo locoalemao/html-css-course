@@ -1,0 +1,36 @@
+p {
+  font-family: Montserrat;
+}
+
+a {
+  font-family: Montserrat;
+}
+
+button {
+  font-family: Montserrat;
+}
+
+.TC {
+  font-size: xx-large;
+  font-size: xx-large;
+}
+.PC {
+  color: green;
+  font-size: x-large;
+}
+.CC {
+  background-color: rgb(255, 30, 0);
+  color: black;
+  height: 30px;
+  width: 150;
+  border: none;
+  border-radius: 18px;
+}
+.BC {
+  background-color: rgb(238, 138, 8);
+  color: black;
+  height: 30px;
+  width: 150;
+  border: none;
+  border-radius: 18px;
+}

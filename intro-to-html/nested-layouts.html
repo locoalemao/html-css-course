@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Nested Layout
+    </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+    <style>
+      p {
+        font-family: Roboto;
+        font-weight: 700;
+        font-size: x-large;
+        margin-bottom: 3px;
+        margin-top: 5px;
+        margin-left: 15px;
+      }
+      .sub,
+      .status {
+        font-weight: 200;
+        color: rgb(158, 156, 156);
+      }
+
+      .profile {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        object-position: -18px;
+        border-radius: 80px;
+        margin-top: 10px; 
+        margin-left: 10px;   
+      }
+
+      .div-pic {
+        display: inline-block;        
+        vertical-align: top;
+      }
+
+      .name-div,
+      .button {
+        display: inline-block;      
+      }
+
+      .button {
+        width: 200px;
+        height: 80px;
+        vertical-align: top;
+        margin-top: 40px;
+        margin-left: 400;
+      }
+
+      .button-style {
+        background-color: rgb(60, 151, 255);
+        height: 30px;
+        width: 70px;
+        color: white;
+        font-family: Roboto;
+        font-weight: 700;
+        border: none;
+        margin-left: 150px;
+        border-radius: 5px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 8px;
+        padding-right: 8px;
+        scale: 150%;
+      }
+
+    </style>
+
+  </head>
+  <body>
+    <div>
+      <div class="div-pic">
+        <img class="profile" src="cat.jpg">
+      </div>
+      <div class="name-div">
+        <p class="name">
+          oliver
+        </p>
+    
+        <p class="sub">
+          the cat
+        </p>
+    
+        <p class="status">
+          Popular
+        </p>
+      </div>
+      <div class="button">
+        <button class="button-style">
+          Follow
+        </button>
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>

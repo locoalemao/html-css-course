@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube.com</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">      
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger" src="icons/ikonate_2_24_black/svg/hamburger.svg">
+        <img class="YT-logo" src="icons/YT.png">  
+      </div>
+
+      <div class="middle-section">
+        <input class="search-bar" type="text"
+        placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/ikonate_2_24_black/svg/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        
+        <!-- Put position absolute inside relative -->
+
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/ikonate_2_24_black/svg/microphone.svg">
+          <div class="tooltip">Voice-Search</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <button class="rs-button">
+          <img class="rs-icon" src="icons/ikonate_2_24_black/svg/plus.svg">
+          <div class="tooltip">Create</div>
+        </button>
+        <button class="rs-button">
+          <img class="rs-icon" src="icons/ikonate_2_24_black/svg/apps.svg">
+          <div class="tooltip">Apps</div>
+        </button>
+        <button class="bell-button">
+          <img class="rs-icon" src="icons/ikonate_2_24_black/svg/bell.svg">
+          <div class="bell-count">8</div>
+          <div class="tooltip">Notifications</div>
+        </button>
+        <img class="account-picture" src="channel-pictures/elon-musk.jpg">
+      </div>  
+    </div>
+
+    <nav class="sidebar">
+      <button class="sidebar-button">
+        <img src="icons/ikonate_2_24_black/svg/ok-circle.svg">
+        <div>Home</div>
+      </button>
+      <button class="sidebar-button">
+        <img src="icons/ikonate_2_24_black/svg/next.svg">
+        <div>Explore</div>
+      </button>
+      <button class="sidebar-button">
+        <img src="icons/ikonate_2_24_black/svg/add-to-list.svg">
+        <div>Subs</div>
+      </button>
+      <button class="sidebar-button">
+        <img src="icons/ikonate_2_24_black/svg/sun.svg">
+        <div>Originals</div>
+      </button>
+      <button class="sidebar-button">
+        <img src="icons/ikonate_2_24_black/svg/music.svg">
+        <div>YouTube Music</div>
+      </button>
+      <button class="sidebar-button">
+        <img src="icons/ikonate_2_24_black/svg/shift.svg">
+        <div>Library</div>
+      </button>     
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+              <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc"
+              target="_blank">
+              <img class="thumbnail" src="thumbnails/image-1.webp"></a>
+              <div class="video-time">14:40</div>
+            </div>
+            <div class="video-info-grid">
+              <div div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/elon-musk.jpg">
+              <div class="channel-info">
+                <div class="channel-picture-large">
+                  <img class="profile-picture-large" src="channel-pictures/elon-musk.jpg">
+                </div>
+                <div class="video-info">
+                  <p class="video-author-info">
+                    Elon Musk
+                  </p>
+                  <p class="video-stats">
+                    420M subscribers
+                  </p>            
+                </div>         
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Watch this epic Starship Launch
+                It will blow your mind!
+              </p>
+              <p class="video-author">
+                Elon Musk
+              </p>
+              <p class="video-stats">
+                1.4M views &#183; 3 months ago
+              </p>            
+            </div>         
+          </div>
+        </div>
+            
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.jpg">
+            <div class="video-time">18:33</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/MB.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                What you need to know about Search bars!
+              </p>
+              <p class="video-author">
+                Marques Brownlee
+              </p>
+              <p class="video-stats">
+                3.4M views &#183; 6 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview"> 
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/balcony.JPG">
+            <div class="video-time">26:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/c_s.png">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Look I made this great new tool in my Garden shed!
+              </p>
+              <p class="video-author">
+                Hannes Builds
+              </p>
+              <p class="video-stats">
+                6.4M views &#183; 5 years ago
+              </p>            
+            </div>         
+          </div>
+        </div> 
+            
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/semi.jpg">
+            <div class="video-time">56:47</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/roll.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                This new truck will blow your mind - amazing tech :)
+              </p>
+              <p class="video-author">
+                Joe Schmoe
+              </p>
+              <p class="video-stats">
+                100 M views &#183; 1 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview"> 
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/cyberlandr.png">
+            <div class="video-time">45:55</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/laser.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Should I buy a Cybr lander attachment?
+              </p>
+              <p class="video-author">
+                Paul Puniti
+              </p>
+              <p class="video-stats">
+                1.1M views &#183; 10 months ago
+              </p>            
+            </div>         
+          </div>
+        </div> 
+            
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/Solartiles.png">
+            <div class="video-time">28:40</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/scrub.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Cool new Tesla tiles - everything you need to know and where to get them
+              </p>
+              <p class="video-author">
+                Jucilene
+              </p>
+              <p class="video-stats">
+                3.4M views &#183; 6 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
